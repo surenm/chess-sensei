@@ -1,0 +1,2 @@
+Simple Rails based online two player Chess Game.
+
