@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: chess_development
+  pool: 5
+  timeout: 5000
+  username: chess
+  password: chess
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: chess_test
+  pool: 5
+  timeout: 5000
+  username: chess
+  password: chess
