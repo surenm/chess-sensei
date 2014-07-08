@@ -22,7 +22,6 @@ gem 'jbuilder', '~> 1.2'
 # user management
 gem 'devise'
 gem 'omniauth-openid'
-gem 'omniauth-facebook'
 
 # Serving and deployment
 gem 'foreman'
