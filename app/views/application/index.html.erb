@@ -1,1 +1,35 @@
-<%= current_user.get_display_name %>
+<div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="masthead clearfix">
+        <div class="inner">
+          <h3 class="masthead-brand">Chess Sensei</h3>
+          <ul class="nav masthead-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="inner cover">
+        <h1 class="cover-heading">Your Personal Chess Trainer</h1>
+        <p class="lead">Chess Sensei is an attempt at an adaptive chess training program that trains you to your needs using historical games and learnings. </p>
+        <p class="lead">
+          <a href="#" class="btn btn-lg btn-success">Start Training Now</a>
+        </p>
+      </div>
+
+      <div class="mastfoot">
+        <div class="inner">
+          <p> &copy; 2014 Chess Sensei - All Rights Reserved  .</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<%= content_for :css do %>
+  <%= stylesheet_link_tag "cover" %>
+<% end %>
