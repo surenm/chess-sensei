@@ -7,9 +7,7 @@ Chess::Application.routes.draw do
     get "signup",:to => "devise/registrations#new"
   end
 
-  get "/users/sign_in" => redirect("/login")
-  get "/users/sign_up" => redirect("/signup")
-  get "/users"         => redirect("/signup")
+  get "/me" => "application#me"
 
   root :to => "application#index"
 end
