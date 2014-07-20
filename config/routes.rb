@@ -1,4 +1,6 @@
 Chess::Application.routes.draw do
+  resources :games
+
   devise_for :users, controllers: { omniauth_callbacks: 'auth' }
 
   devise_scope :user do
